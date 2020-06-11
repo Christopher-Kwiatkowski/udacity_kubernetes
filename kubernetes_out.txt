@@ -1,0 +1,16 @@
+(devops) Shannons-MacBook-Air:project-ml-microservice-kubernetes shannonhurley$ ./run_kubernetes.sh
+Error from server (AlreadyExists): deployments.apps "udacity-kubernetes" already exists
+NAMESPACE     NAME                                  READY   STATUS    RESTARTS   AGE
+default       udacity-kubernetes-674b8b9849-fjf67   1/1     Running   0          7m20s
+kube-system   coredns-66bff467f8-56l9p              1/1     Running   0          14m
+kube-system   coredns-66bff467f8-f6lgf              1/1     Running   0          14m
+kube-system   etcd-minikube                         1/1     Running   0          14m
+kube-system   kube-apiserver-minikube               1/1     Running   0          14m
+kube-system   kube-controller-manager-minikube      1/1     Running   0          14m
+kube-system   kube-proxy-2lp4c                      1/1     Running   0          14m
+kube-system   kube-scheduler-minikube               1/1     Running   0          14m
+kube-system   storage-provisioner                   1/1     Running   0          14m
+Error from server (AlreadyExists): services "udacity-kubernetes" already exists
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
